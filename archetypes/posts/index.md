@@ -1,7 +1,7 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
-type = "page"
+type = "post"
 
 description = ""
 image = ""
