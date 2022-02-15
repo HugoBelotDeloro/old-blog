@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
-title = "Iridescent_'s Blog"
+title = "Hugo Belot-Deloro's blog"
 
 theme = "gokarna"
 
@@ -55,14 +55,15 @@ enableRobotsTXT = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "Programming and programming languages"
+  description = ""
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = '''
+  '''
 
   # Keywords relevant for SEO
   metaKeywords = ["blog", "programming", "development"]
@@ -79,8 +80,3 @@ enableRobotsTXT = true
     {name = "github", url = "https://github.com/HugoBelotDeloro"},
     {name = "linkedin", url = "https://www.linkedin.com/in/hugo-belot-deloro-96a0941b6/"},
   ]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
